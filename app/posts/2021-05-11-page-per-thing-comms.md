@@ -4,7 +4,7 @@ description: Using a page-per-thing pattern
 date: 2021-05-11
 ---
 
-Probation practitioners (PPs) need to add details of their communications with service users (SUs). We added the ability to recorder:
+Probation practitioners (PPs) need to add details of their communications with service users (SUs). We added the ability to record:
 
 - Emails
 - Text messages
