@@ -2,6 +2,10 @@
 title: Recording acceptable absences
 description: Use structured data for capturing acceptable absences
 date: 2021-05-24
+related:
+  items:
+  - text: Trello
+    href: https://trello.com/c/7qtBAmmo/469-design-additional-choices-for-the-acceptable-absence-attendance-journey
 ---
 
 Probation Practitioners (PPs) need to record whether someone on probation attends appointments. If they’re absent, there can be either an acceptable absence or an unacceptable absence.
