@@ -1,6 +1,6 @@
 ---
 title: Recording acceptable absences
-description:
+description: Use structured data for capturing acceptable absences
 date: 2021-05-24
 ---
 
