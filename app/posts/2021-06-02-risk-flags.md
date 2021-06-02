@@ -8,6 +8,8 @@ related:
     href: https://trello.com/c/WQzLKBkj/501-surfacing-the-notes-from-delius-risk-badges-bingo-balls-registrations
   - text: Risk flag guidance
     href: https://docs.google.com/document/d/1HbGy7_bU-WU_hLS_FjWiC3otxzyrSQQ2RBFkhxZ8Za4/edit
+  - text: Risk flag data
+    href: https://docs.google.com/spreadsheets/u/2/d/1YWiDn22gRsujF2R86geWrgvr1f3R7a85-Qyi5OO34o4/edit?usp=sharing
   - text: Prototype PR
     href: https://github.com/ministryofjustice/hmpps-manage-supervisions-prototype/pull/248
 ---
