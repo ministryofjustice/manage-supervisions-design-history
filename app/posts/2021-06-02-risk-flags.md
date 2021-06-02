@@ -51,6 +51,8 @@ Tags are colour coded based on 4 of the 5 existing Delius categories:
 - Public protection (purple)
 - Information (grey)
 
+We are not sure what value there is in keeping these categories, if we need different categories, or no categories at all. Categories might be a symptom of having too many different risk flags.
+
 ### Colours in Delius
 
 There are colours for risk flags in Delius (red, amber, green), but they don’t line up with categories. It's not clear how those colours were derived and what they mean. A research participant did note they would look at ‘the red ones’.
