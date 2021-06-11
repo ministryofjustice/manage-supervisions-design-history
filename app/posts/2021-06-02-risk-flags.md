@@ -75,6 +75,41 @@ We need to decide how the Risk of harm and Risk flags sit together, for instance
 - Suicide/Self Harm
 - Vulnerable
 
+## Number of flags
+
+Most active service users have between 2 and 7 active risk flags. The maximum found on a single service user was 14.
+
+| Number of flags | Percentage of service users |
+|--|--|
+| 0 | <1% |
+| 1 | 2% |
+| 2 | 10% |
+| 3 | 16% |
+| 4 | 21% |
+| 5 | 18% |
+| 6 | 14% |
+| 7 | 10% |
+| 8 | 4% |
+| 9 | 2% |
+| 10 | 1% |
+| 11 | <1% |
+| 12 | <1% |
+| 13 | <1% |
+| 14 | <1% |
+
+## Ordering flags
+
+There were a number of options:
+
+- newest first
+- alphabetical
+- riskiest first
+- most recently reviewed (or added if not reviewed yet) first
+
+For simplicity, and until we have our own model of risk and importance, we're choosing to list flags alphabetically.
+
+One group of flags begins with ‘At last termination – ’ (ALT), a side effect of ordering alphabetically is that these will all appear first. ALT flags relate to previous orders and may not be as relevant, we might need a rule to change how those flags are ordered.
+
 ## Clickable tags
 
 We’ve added some [experimental styles](#different-flag-link-states) to make the [GOV.UK Design System tags](https://design-system.service.gov.uk/components/tag/) clickable. These styles underline the text and increase the padding to give more space to the underline. The styles work best with the new design system link styles (thicker underlines on hover).
