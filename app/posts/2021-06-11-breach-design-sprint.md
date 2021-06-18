@@ -43,7 +43,7 @@ Practitioners have 10 working days to prepare a breach information pack to submi
   caption: 'Stages, touch points and pain points of the journey from conditions leading to breach, through to court and what a breach leads to.',
   image: {
     file: 'breaching-su-community-order.png',
-    alt: 'Alt'
+    alt: 'Stages, touch points and pain points of the journey from conditions leading to breach, through to court and what a breach leads to'
   }
 }) }}
 
