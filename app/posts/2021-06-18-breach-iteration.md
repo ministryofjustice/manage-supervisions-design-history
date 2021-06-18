@@ -2,6 +2,12 @@
 title: Breach iteration
 description: Different compliance states and Delius mechanisms
 date: 2021-06-18
+related:
+  items:
+  - text: Prototype PR
+    href: https://github.com/ministryofjustice/hmpps-manage-supervisions-prototype/pull/261
+  - text: Research discussion guide
+    href: https://docs.google.com/document/d/17-ERYnPP4cvYqU3ii1OE5csVRJgu9fOZ/edit
 ---
 
 An iteration following our [original designs](/breach-design-sprint).
