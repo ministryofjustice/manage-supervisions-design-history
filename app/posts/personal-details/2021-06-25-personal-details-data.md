@@ -3,7 +3,6 @@ layout: page
 title: Personal details and Delius data
 description: Field by field breakdown of what we do and do not include
 date: 2021-06-25
-eleventyExcludeFromCollections: true
 eleventyComputed:
   eleventyNavigation:
     parent: personal-details
