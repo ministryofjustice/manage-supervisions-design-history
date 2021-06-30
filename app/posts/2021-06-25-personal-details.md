@@ -189,7 +189,39 @@ Another approach might be to show nothing and point all users to Delius, creatin
 ## Personal circumstances
 [View Delius fields](/personal-details/personal-details-data/#personal-circumstances)
 
-This section has been restyled but the data still needs to be assessed.
+Each circumstance has a type and a subtype. The circumstances available to choose from are based on the provider selected in Delius.
+
+Only 1 circumstance of each type and subtype combination can be added (or more specifically – current at once), for example I can add "General Health" with subtype "Maternity" only once. Once added those options aren't shown in the list again.
+
+### Renewing a personal circumstance
+
+Delius allows users to ‘Renew’ a circumstance (by clicking ‘new’). Renewing lets practitioners set an end date on the old circumstance, copy notes from that circumstance, and then asks for start date, end date, verified and notes again – but pre-fills known fields.
+
+How this feature is used by practitioners is unknown.
+
+### Our design
+
+Our personal circumstances section has been removed and incorporated into the personal details section as a summary.
+
+Full details are then shown on a separate circumstances page, much like we do with disabilities and adjustments.
+
+Only current circumstances are summarised, ie any circumstance without an end date in the past. All circumstances are shown on the circumstances page.
+
+There isn’t yet a design for an historic circumstance.
+
+{{ appFigure({
+  title: 'Circumstances as part of personal details section',
+  image: {
+    file: 'personal-circumstances.png'
+  }
+}) }}
+
+{{ appFigure({
+  title: 'Personal circumstances page',
+  image: {
+    file: '08-personal-circumstances-page.png'
+  }
+}) }}
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
@@ -202,6 +234,9 @@ This section has been restyled but the data still needs to be assessed.
     }, {
       text: "New personal details tab",
       img: { src: "03-new-personal-details.png" }
+    }, {
+      text: "Personal circumstances",
+      img: { src: "08-personal-circumstances-page.png" }
     }, {
       text: "Disabilities and adjustments",
       img: { src: "04-disabilities-and-adjustments.png" }

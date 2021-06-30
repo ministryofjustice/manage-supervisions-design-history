@@ -111,4 +111,12 @@ Last updated 25 June 2021
 
 ## Personal circumstances
 
-This section still needs to be designed.
+| Delius label and section | On circumstances page? |
+|--|--|
+| __Provider__<br />(Personal circumstances) | No – Not included yet, not clear how this provider field is used other than filtering what types of circumstance are available to the practitioner (ie as a filter=) |
+| __Circumstance type__<br />(Personal circumstances) | Yes – Shown on personal details tab as a summary, used as title to sections on circumstances page |
+| __Circumstance&nbsp;subtype__<br />(Personal circumstances) | Yes – Shown on personal details tab as a summary, used as title to sections on circumstances page |
+| __Start date__<br />(Personal circumstances) | Yes – Only on circumstances page |
+| __End date__<br />(Personal circumstances) | Yes – Only if present, on circumstances page |
+| __Verified__<br />(Personal circumstances) | Yes – Only on circumstances page |
+| __Notes__<br />(Personal circumstances) | Yes – Only if present, on circumstances page |
