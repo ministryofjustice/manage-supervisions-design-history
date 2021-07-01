@@ -78,12 +78,12 @@ Last updated 25 June 2021
 | __Disability type__<br />(Disabilities and adjustments) | Yes – Shown on personal details tab as a summary, used as title to sections on disabilities page |
 | __Disability start date__<br />(Disabilities and adjustments) | Yes – Only on disabilities page |
 | __Disability end date__<br />(Disabilities and adjustments) | Yes – Only if present, on disabilities page  |
-| __Disability notes__<br />(Disabilities and adjustments) | Yes – Only if present, on disabilities page  |
+| __Disability notes__<br />(Disabilities and adjustments) | Yes – if present otherwise ‘No notes’, on disabilities page  |
 | __Adjustments__<br />(Disabilities and adjustments) | Yes – On disabilities page, ‘None’ if not present  |
 | __Adjustment__<br />(Disabilities and adjustments) | Yes – On disabilities page, title of details component  |
 | __Adjustment start date__<br />(Disabilities and adjustments) | Yes – Behind adjustment details component  |
 | __Adjustment end date__<br />(Disabilities and adjustments) | Yes – Only if present, behind adjustment details
-| __Adjustment notes__<br />(Disabilities and adjustments) | Yes – Only if present, behind adjustment details component  | component  |
+| __Adjustment notes__<br />(Disabilities and adjustments) | Yes – if present otherwise ‘No notes’, behind adjustment details component  | component  |
 
 ## Equality monitoring
 
@@ -113,10 +113,30 @@ Last updated 25 June 2021
 
 | Delius label and section | On circumstances page? |
 |--|--|
-| __Provider__<br />(Personal circumstances) | No – Not included yet, not clear how this provider field is used other than filtering what types of circumstance are available to the practitioner (ie as a filter=) |
+| __Provider__<br />(Personal circumstances) | No – Not included yet, not clear how this provider field is used other than filtering what types of circumstance are available to the practitioner (ie as a filter) |
 | __Circumstance type__<br />(Personal circumstances) | Yes – Shown on personal details tab as a summary, used as title to sections on circumstances page |
 | __Circumstance&nbsp;subtype__<br />(Personal circumstances) | Yes – Shown on personal details tab as a summary, used as title to sections on circumstances page |
 | __Start date__<br />(Personal circumstances) | Yes – Only on circumstances page |
 | __End date__<br />(Personal circumstances) | Yes – Only if present, on circumstances page |
 | __Verified__<br />(Personal circumstances) | Yes – Only on circumstances page |
-| __Notes__<br />(Personal circumstances) | Yes – Only if present, on circumstances page |
+| __Notes__<br />(Personal circumstances) | Yes – if present, otherwise 'No notes', on circumstances page |
+
+## Personal contacts
+
+| Delius label and section | On personal contact page? |
+|--|--|
+| __Relationship type__<br />(Personal contact) | Yes |
+| __Title__<br />(Personal contact) | No – Suppressed unless need arises |
+| __First name__<br />(Personal contact) | Yes – As name |
+| __Other names__<br />(Personal contact) | Yes – As name (these are meant as middle names, not Other names held) |
+| __Surname or family name__<br />(Personal contact) | Yes – As name |
+| __Previous surname__<br />(Personal contact) | No – Suppressed unless need arises |
+| __Relationship to offender__<br />(Personal contact) | Yes – Shown on personal details tab against name and as part of title to a section |
+| __Gender__<br />(Personal contact) |  No – Suppressed unless need arises |
+| __Address__<br />(Personal contact) |  Yes, as single address field |
+| __Mobile number__<br />(Personal contact) | Yes – As Phone number if only number, otherwise as Mobile number |
+| __Telephone number__<br />(Personal contact) | Yes – As Phone number if only number, otherwise as Telephone number |
+| __Email address__<br />(Personal contact) | Yes, if present |
+| __Start date__<br />(Personal contact) | Yes, if present |
+| __End date__<br />(Personal contact) | Yes, if present |
+| __Notes__<br />(Personal contact) | Yes, if present otherwise 'No notes' |
