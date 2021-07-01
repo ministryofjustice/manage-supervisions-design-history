@@ -2,6 +2,10 @@
 title: Personal contacts
 description: A page for each personal contact
 date: 2021-07-01
+related:
+  items:
+  - text: Prototype PR
+    href: https://github.com/ministryofjustice/hmpps-manage-supervisions-prototype/pull/272
 ---
 
 A follow-up to the [personal details work](/personal-details), this design adds a page for each personal contact.
@@ -37,7 +41,7 @@ We could categorise these types and show professional contacts elsewhere. For no
 
 ## Start and end dates
 
-It’s possible for a personal contact to have a start and end date – for example a previous social worker or an old GP.
+It’s possible for a personal contact to have a start and end date (neither are required) – for example a previous social worker or an old GP.
 
 It looks like you cannot remove a personal contact from Delius, so it’s likely that end dates are used to say ‘this is not current’.
 
