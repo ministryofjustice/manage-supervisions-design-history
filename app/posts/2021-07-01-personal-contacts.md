@@ -39,6 +39,10 @@ They are categorised by relationship type:
 
 We could categorise these types and show professional contacts elsewhere. For now all are listed on the personal details tab.
 
+## Sorting contacts
+
+The list of personal contacts on the personal details tab should be sorted first by relationship type and then alphabetically.
+
 ## Start and end dates
 
 It’s possible for a personal contact to have a start and end date (neither are required) – for example a previous social worker or an old GP.
