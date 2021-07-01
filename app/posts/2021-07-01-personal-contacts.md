@@ -45,7 +45,7 @@ It’s possible for a personal contact to have a start and end date (neither are
 
 It looks like you cannot remove a personal contact from Delius, so it’s likely that end dates are used to say ‘this is not current’.
 
-We might want to not show any personal contact with an end date, or alternatively display them differently.
+At the moment we will list all contacts, but we might want to avoid showing any with an end date, or choose to display them differently.
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
