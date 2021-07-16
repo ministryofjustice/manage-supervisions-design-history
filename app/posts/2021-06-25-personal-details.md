@@ -24,7 +24,7 @@ It was not clear if:
 
 ## Field by field
 
-To make decisions easier, there’s now [a field by field breakdown of what we include](/personal-details/personal-details-data) in the personal details section.
+To make decisions easier, there’s now [a field by field breakdown of what we include](/personal-details-data) in the personal details section.
 
 The breakdown shows:
 
@@ -34,7 +34,7 @@ The breakdown shows:
 - being explicit if we haven’t thought much about a field yet
 
 ## Addresses
-[View Delius fields](/personal-details/personal-details-data/#addresses)
+[View Delius fields](/personal-details-data/#addresses)
 
 Each address much have one of the following statuses:
 
@@ -81,7 +81,7 @@ When an address is marked as no fixed abode the address type is also shown as it
 }) }}
 
 ## Names
-[View Delius fields](/personal-details/personal-details-data/#offender-summary-and-details)
+[View Delius fields](/personal-details-data/#offender-summary-and-details)
 
 We combine first, second, third and family name fields from Delius into a single Name. This assumes that the family name comes last. [More about capturing names](https://design-system.service.gov.uk/patterns/names/). Practitioners could also put multiple names into a single field as Delius accepts values containing spaces.
 
@@ -97,7 +97,7 @@ Delius can only capture one previous name. Previous name is labelled as "previou
 }) }}
 
 ## Disabilities and adjustments
-[View Delius fields](/personal-details/personal-details-data/#disabilities-and-adjustments)
+[View Delius fields](/personal-details-data/#disabilities-and-adjustments)
 
 On Delius practitioners can add one disability of each type. Those types are:
 
@@ -148,7 +148,7 @@ Each adjustment has a start and an end date. The start date is required.
 }) }}
 
 ## Equality monitoring
-[View Delius fields](/personal-details/personal-details-data/#equality-monitoring)
+[View Delius fields](/personal-details-data/#equality-monitoring)
 
 Alongside its own fields, the equality monitoring section in Delius repeats some data from:
 
@@ -187,7 +187,7 @@ Another approach might be to show nothing and point all users to Delius, creatin
 }) }}
 
 ## Personal circumstances
-[View Delius fields](/personal-details/personal-details-data/#personal-circumstances)
+[View Delius fields](/personal-details-data/#personal-circumstances)
 
 Each circumstance has a type and a subtype. The circumstances available to choose from are based on the provider selected in Delius.
 

@@ -10,7 +10,7 @@ related:
 
 A follow-up to the [personal details work](/personal-details), this design adds a page for each personal contact.
 
-[View Delius fields](/personal-details/personal-details-data/#personal-contacts)
+[View Delius fields](/personal-details-data/#personal-contacts)
 
 We're not showing the following personal contact details unless a clear user need arises:
 
