@@ -102,10 +102,6 @@ We list all requirements of an order within the sentence section, with each requ
 
 We try to surface as much relevant information upfront in the description as we can – for example the type, subtype and any values. For example, "150 hours unpaid work" rather than just "Unpaid work".
 
-### Order length extended
-
-An example of a requirement not covered is ‘Order length extended’, using this someone could add more RAR days. We need to do further investigation around when/how this requirement is used.
-
 {% from "figure/macro.njk" import appFigure with context %}
 {{ appFigure({
   title: 'Examples of requirement descriptions',
@@ -113,6 +109,10 @@ An example of a requirement not covered is ‘Order length extended’, using th
     file: 'types-of-requirements.png'
   }
 }) }}
+
+### Order length extended
+
+An example of a requirement not covered is ‘Order length extended’, using this someone could add more RAR days. We need to do further investigation around when/how this requirement is used.
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
 {{ appScreenshots({
