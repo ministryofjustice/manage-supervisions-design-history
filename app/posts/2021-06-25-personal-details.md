@@ -24,7 +24,7 @@ It was not clear if:
 
 ## Field by field
 
-To make decisions easier, there’s now [a field by field breakdown of what we include](/personal-details/personal-details-data) in the personal details section.
+To make decisions easier, there’s now [a field by field breakdown of what we include](/personal-details-data) in the personal details section.
 
 The breakdown shows:
 

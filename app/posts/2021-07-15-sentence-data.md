@@ -2,10 +2,10 @@
 layout: page
 title: Sentence and offences data (Events in Delius)
 description: Field by field breakdown of what we do and do not include
-date: 2021-07-09
+date: 2021-07-15
 ---
 
-Last updated 7 July 2021
+Last updated 16 July 2021
 
 ## Event details
 
@@ -35,7 +35,7 @@ Last updated 7 July 2021
 | __Conviction date__ | Yes, in conviction section |
 | __Main offence__ | Yes, as category in offence section, may be removed later if no need arises |
 | __Offence Sub-Cat__ | Yes, as Main offence in offence section |
-| __OGRS__ | No – Not included yet, need and purpose not understood, expect to add this |
+| __OGRS__ | Yes, we expect there is a need but need to understand more |
 | __Additional offences?__ | Yes, in offence section |
 | __Notes__ | Yes, in offence section |
 
