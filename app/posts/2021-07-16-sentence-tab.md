@@ -52,6 +52,18 @@ For each additional offence we list the subcategory (ie the part of the offence 
 
 Typically we’d use a details pattern to show further offence detail (like with sentences and requirements), but as the text for each offence can be long, the details elements become unwieldy and hard to read. Instead we're deferring full details onto an [Offences page](/sentence-tab/#offences-page).
 
+### Context around offences
+
+The offence details in Delius can be quite minimal - they give the category and subcategory of the offence, but often there’s no further notes explaining what actually happened – for example £50 of cosmetics were stolen from Woolworths.
+
+This information is available in Libra (Magistrates Court Case management system), and available via a separate API, but it’s not clear if we can align the two to enrich data. The API which pulls from Libra also has more human-readable offence names with a different coding system.
+
+Probation practitioners instead need to delve into the CPS pack for fuller details about an offence.
+
+### Offences page
+
+We list the main offence, then all details about each additional offence. Each section needs its own unique title – for now we are using the subcategory ID of the offence as the descriptions are too long.
+
 ## Conviction
 
 We’ve renamed ‘Court’ to ‘Sentencing court’ to distinguish from ‘Responsible court’. We need to check this is always correct.
@@ -89,6 +101,10 @@ When we’re working with real data we might be able to clean some of this up wi
 We list all requirements of an order within the sentence section, with each requirement having its own data – such as notes and start dates.
 
 We try to surface as much relevant information upfront in the description as we can – for example the type, subtype and any values. For example, "150 hours unpaid work" rather than just "Unpaid work".
+
+### Order length extended
+
+An example of a requirement not covered is ‘Order length extended’, using this someone could add more RAR days. We need to do further investigation around when/how this requirement is used.
 
 {% from "figure/macro.njk" import appFigure with context %}
 {{ appFigure({
