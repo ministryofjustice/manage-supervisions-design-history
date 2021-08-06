@@ -8,6 +8,8 @@ related:
     href: https://drive.google.com/file/d/1NogW6MBI82ZMEWQex27lRG1EXHJ5onfn/view?usp=sharing
   - text: Trello
     href: https://trello.com/c/PkQmPoEa/498-design-in-enforcement-actions-data-when-a-service-user-has-failed-to-comply-failed-to-attend-an-appointment
+  - text: Enforcement action when recording attendance
+    href: /enforcement-action-when-recording-attendance/
 ---
 
 Following on from the [breach and compliance design sprint](/breach-design-sprint/), we needed to understand what users need in order to take enforcement action when there has been a failure.
