@@ -2,6 +2,16 @@
 title: Activity log iteration
 description: Refining the design to make it more compact, and to handle more contact types
 date: 2021-09-06
+related:
+  items:
+  - text: Show and tell slides
+    href: https://docs.google.com/presentation/d/1eYbQ1iEXuUgnGeR5i8PUAqWrpuKOqLVqZIopATFWkIQ/edit#slide=id.p
+  - text: Trello
+    href: https://trello.com/c/IGUKIEp1/525-improve-activity-log-layout-and-entries
+  - text: Prototype PR
+    href: https://github.com/ministryofjustice/hmpps-manage-supervisions-prototype/pull/349
+  - text: Prototype PR - system contacts
+    href: https://github.com/ministryofjustice/hmpps-manage-supervisions-prototype/pull/351
 ---
 {% from "figure/macro.njk" import appFigure with context %}
 
@@ -74,6 +84,17 @@ It’s possible for a contact to be marked as sensitive but have no notes:
   }
 }) }}
 
+## Record an outcome
+
+Now that the outcome has a default place to live in the activity box, when an outcome has not been recorded, this is where we can place the call to action to record one.
+
+{{ appFigure({
+  title: 'An appointment without a recorded outcome',
+  image: {
+    file: '13-outcome-not-recorded.png'
+  }
+}) }}
+
 ## Pulling out useful appointment details
 
 ### RAR
@@ -110,7 +131,7 @@ When there’s:
 Rather than treating every entry equally we’ve opted to give prominence to national standard appointments.
 
 - National standards appointments have the full summary card styles, with grey header and a complied tag
-- Communications and other types of activity appear with a simpler white box and border
+- Communications and other types of activity appear with a simpler white box and border (ie anything that's not a national standard or system generated)
 - System generated contacts have a single grey line entry
 
 ### System generated contacts
