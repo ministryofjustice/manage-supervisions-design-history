@@ -45,6 +45,13 @@ We have removed the date label from each activity log entry, replacing it with a
 
 There is also a relative date feature which will show ‘Today’ or ‘Yesterday’ rather than the date.
 
+### Ordering
+
+- Days are ordered newest first
+- Within a day, entries are ordered oldest first, ie as you read through the day it goes from morning to evening
+- If we implement pagination we should always show a full day and not split a day between pages
+- We might choose to put all system generated contacts at the end of the day
+
 ## Simplifying tags
 
 We were using tags to display:
