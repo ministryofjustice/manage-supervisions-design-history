@@ -2,6 +2,10 @@
 title: Record an outcome iteration
 description: Disabling RAR, language improvements and appending notes
 date: 2021-10-13
+related:
+  items:
+  - text: Prototype PR
+    href: https://github.com/ministryofjustice/hmpps-manage-supervisions-prototype/pull/367
 ---
 
 We’ve iterated our Record an outcome journey to accommodate:
