@@ -25,6 +25,8 @@ We’ve:
 - listed the types of concerns on the overview, so that suicide or self harm risks are present at a glance
 - strengthened the language around concerns on the risk page
 
+The list of previous concerns should only include risks that are not in immediate concerns. For example, if there is an immediate risk of suicide and also a previous risk of suicide, we only need to show the former.
+
 ### Examples of language changes;
 
 > There are concerns about suicide and self-harm
