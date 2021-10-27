@@ -23,9 +23,14 @@ If a user had no locations our service wouldn’t let them continue. They could 
 
 If location is optional we should skip the location screen. The location will be empty on Delius.
 
-On Delius it is impossible for a user with no locations to book an appointment that requires a location. They can still choose that contact type, but cannot submit the form.
+Our designs restrict the locations shown to those associated with the team or teams that our users are members of, as we believe this makes the appointment arrangement flow as simple as possible for the common case. There is no way to select a location from a different team in our service.
 
-We need a design that tells users why they cannot continue and we need to give them a way back.
+On Delius, a user with no locations can still book appointments that require a location, as they can choose any team within the Provider they are a member of, and then select from the locations available to that team.
+
+We might need designs that:
+
+- tells users why they cannot continue and we need to give them a way back
+- give a route to selecting a location from another team (for all users)
 
 ## When a location is optional, but not appropriate
 
