@@ -21,7 +21,11 @@ If a user had no locations our service wouldn’t let them continue. They could 
 
 ## A user with no locations
 
-In this scenario we must always skip the location screen. The location will be empty on Delius.
+If location is optional we should skip the location screen. The location will be empty on Delius.
+
+On Delius it is impossible for a user with no locations to book an appointment that requires a location. They can still choose that contact type, but cannot submit the form.
+
+We need a design that tells users why they cannot continue and we need to give them a way back.
 
 ## When a location is optional, but not appropriate
 
