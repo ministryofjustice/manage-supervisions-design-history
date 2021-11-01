@@ -2,6 +2,10 @@
 title: Pick a location
 description: Changes to the ‘Where will the appointment be’ page
 date: 2021-10-27
+related:
+  items:
+  - text: Iteration on this design
+    href: /pick-a-location-iteration/
 ---
 
 In Delius the following scenarios are possible when arranging an appointment:
