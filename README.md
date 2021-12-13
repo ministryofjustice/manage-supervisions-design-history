@@ -4,8 +4,8 @@ A place documenting the design history of the Manage supervisions service.
 
 It uses the GOV.UK Design History:
 
-<https://design-history.herokuapp.com>
-<https://github.com/DFE-Digital/govuk-design-history>
+- <https://design-history.herokuapp.com>
+- <https://github.com/DFE-Digital/govuk-design-history>
 
 ## Purpose of this project
 
