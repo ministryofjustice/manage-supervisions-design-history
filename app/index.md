@@ -21,6 +21,8 @@ related:
         Password: `supervisions`
   - text: Prototype repository
     href: https://github.com/ministryofjustice/hmpps-steel-thread
+  - text: Handover presentation
+    href: https://docs.google.com/presentation/d/1r1_5JGNk7Zco06njiOJ7yXudBrWrjEk2O5xP5qOr6io/
   - text: Trello (doing board)
     href: https://trello.com/b/YQ7Xmh13/manage-a-supervision-team-board
   - text: Trello (planning board)
