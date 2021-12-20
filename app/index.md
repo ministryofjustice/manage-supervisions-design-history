@@ -21,8 +21,12 @@ related:
         Password: `supervisions`
   - text: Prototype repository
     href: https://github.com/ministryofjustice/hmpps-steel-thread
-  - text: Trello
-    href: https://trello.com/b/YQ7Xmh13/steel-thread-inception
+  - text: Trello (doing board)
+    href: https://trello.com/b/YQ7Xmh13/manage-a-supervision-team-board
+  - text: Trello (planning board)
+    href: https://trello.com/b/REEBnsn2/manage-a-supervision-planning-board
+  - text: Trello (done board)
+    href: https://trello.com/b/pxjmKVO0/manage-a-supervision-%F0%9F%8E%89-board
   - text: Google Drive
     href: https://drive.google.com/drive/u/0/folders/1IiUwSrjjS1NoVd1sk__APQziYrwjBE3F
 ---
