@@ -16,6 +16,9 @@ related:
   items:
   - text: Prototype
     href: https://manage-supervisions.herokuapp.com/
+    description: |
+        Username: `manage`
+        Password: `supervisions`
   - text: Prototype repository
     href: https://github.com/ministryofjustice/hmpps-steel-thread
   - text: Trello
