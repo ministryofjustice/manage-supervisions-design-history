@@ -104,8 +104,7 @@ If any complied appointment changes to a failure or absence, we must remove any 
 
 {% from "embed/macro.njk" import appEmbed with context %}
 {{ appEmbed({
-  youtubeId: 'n5XHItZGklQ',
-  title: 'blah'
+  youtubeId: 'n5XHItZGklQ'
 }) }}
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
