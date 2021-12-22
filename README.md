@@ -1,5 +1,7 @@
 # HMPPS Manage supervisions design history
 
+[![Continuous Deployment](https://github.com/ministryofjustice/manage-supervisions-design-history/actions/workflows/cd.yaml/badge.svg)](https://github.com/ministryofjustice/manage-supervisions-design-history/actions/workflows/cd.yaml)
+
 A place documenting the design history of the Manage supervisions service.
 
 <https://manage-supervisions-design-history.apps.live.cloud-platform.service.justice.gov.uk/>
