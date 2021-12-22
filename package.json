@@ -12,9 +12,9 @@
   ],
   "author": "Manage supervisions team",
   "license": "MIT",
-  "homepage": "https://design-history.herokuapp.com",
-  "repository": "github:DFE-Digital/govuk-design-history",
-  "bugs": "https://github.com/DFE-Digital/govuk-design-history/issues",
+  "homepage": "https://manage-supervisions-design-history.apps.live.cloud-platform.service.justice.gov.uk/",
+  "repository": "github:ministryofjustice/manage-supervisions-design-history",
+  "bugs": "https://github.com/ministryofjustice/manage-supervisions-design-history/issues",
   "scripts": {
     "prebuild": "rm -rf public",
     "build:files": "eleventy",
