@@ -15,7 +15,7 @@ eleventyComputed:
 related:
   items:
   - text: Prototype
-    href: https://manage-supervisions.herokuapp.com/
+    href: https://hmpps-manage-supervisions-prototype.apps.live.cloud-platform.service.justice.gov.uk/
     description: |
         Username: `manage`
         Password: `supervisions`
